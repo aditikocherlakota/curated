@@ -19,6 +19,10 @@ enum Secrets {
         resolve("ELEVENLABS_AGENT_ID")
     }
 
+    static var geminiAPIKey: String {
+        resolve("GEMINI_API_KEY")
+    }
+
     static var elevenLabsVoiceId: String {
         resolve("ELEVENLABS_VOICE_ID")
     }

@@ -38,6 +38,8 @@
 	<string>agent_7601ktf1t9eaef2rsvjrgvh0edm7</string>
 	<key>VALENCE_API_KEY</key>
 	<string>vk_75dbb6b4b01a3a7ef6b8e266eaad3e21be255d05da50720f4e53415be5a09d17</string>
+	<key>GEMINI_API_KEY</key>
+	<string>$(GEMINI_API_KEY)</string>
 	<key>BACKEND_BASE_URL</key>
 	<string>https://your-backend.example.com</string>
 </dict>
