@@ -32,3 +32,4 @@ Secrets.xcconfig
 
 # Claude
 .claude/
+backend/.env

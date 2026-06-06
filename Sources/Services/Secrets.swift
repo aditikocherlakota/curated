@@ -23,6 +23,10 @@ enum Secrets {
         resolve("GEMINI_API_KEY")
     }
 
+    static var elevenLabsVoiceId: String {
+        resolve("ELEVENLABS_VOICE_ID")
+    }
+
     static var backendBaseURL: String {
         resolve("BACKEND_BASE_URL", fallback: "https://your-backend.example.com")
     }

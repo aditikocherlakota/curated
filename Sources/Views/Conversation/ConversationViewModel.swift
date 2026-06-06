@@ -42,8 +42,10 @@ final class ConversationViewModel: ObservableObject {
 
                 \(vibeMd)
                 """
+            let voiceId = Secrets.elevenLabsVoiceId.isEmpty ? nil : Secrets.elevenLabsVoiceId
             let config = ConversationConfig(
                 agentOverrides: AgentOverrides(prompt: systemPrompt),
+                ttsOverrides: TTSOverrides(voiceId: voiceId),
                 conversationOverrides: ConversationOverrides(textOnly: false)
             )
 
