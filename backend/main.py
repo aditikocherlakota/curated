@@ -1,6 +1,8 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import os
+from dotenv import load_dotenv
+load_dotenv()
 
 from instagram import pull_and_generate_vibe
 from elevenlabs import create_session

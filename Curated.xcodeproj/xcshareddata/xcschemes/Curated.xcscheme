@@ -58,7 +58,7 @@
          </EnvironmentVariable>
          <EnvironmentVariable
             key = "BACKEND_BASE_URL"
-            value = "http://172.16.11.107:8000"
+            value = "https://distant-audacity-parole.ngrok-free.dev"
             isEnabled = "YES">
          </EnvironmentVariable>
       </EnvironmentVariables>
