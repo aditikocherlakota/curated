@@ -10,6 +10,17 @@ Speak like a confident, warm friend with excellent taste. Never be sycophantic. 
 
 {vibe_md}"""
 
+async def get_conversation_token() -> str:
+    async with httpx.AsyncClient() as client:
+        response = await client.get(
+            "https://api.elevenlabs.io/v1/convai/conversation/token",
+            params={"agent_id": ELEVENLABS_AGENT_ID},
+            headers={"xi-api-key": ELEVENLABS_API_KEY},
+        )
+        response.raise_for_status()
+        return response.json()["token"]
+
+
 async def create_session(vibe_md: str) -> dict:
     system_prompt = BASE_MIRROR_PROMPT.format(vibe_md=vibe_md)
 

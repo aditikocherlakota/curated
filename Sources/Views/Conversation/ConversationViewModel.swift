@@ -49,8 +49,9 @@ final class ConversationViewModel: ObservableObject {
                 conversationOverrides: ConversationOverrides(textOnly: false)
             )
 
+            let token = try await APIService.shared.getAgentToken()
             let conv = try await ElevenLabs.startConversation(
-                agentId: agentId,
+                conversationToken: token,
                 config: config
             )
 

@@ -98,6 +98,19 @@ final class APIService {
         return vibeMd
     }
 
+    // MARK: - ElevenLabs token
+
+    func getAgentToken() async throws -> String {
+        let url = URL(string: "\(baseURL)/agent/token")!
+        let (data, response) = try await URLSession.shared.data(from: url)
+        guard let http = response as? HTTPURLResponse, http.statusCode == 200,
+              let json = try JSONSerialization.jsonObject(with: data) as? [String: Any],
+              let token = json["token"] as? String else {
+            throw APIError.requestFailed
+        }
+        return token
+    }
+
     // MARK: - Recommendations
 
     func retrieve(query: String, vibeId: String) async throws -> [[String: Any]] {

@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import os
 from dotenv import load_dotenv
-load_dotenv()
+load_dotenv(os.path.join(os.path.dirname(__file__), ".env"), override=True)
 
 from instagram import pull_and_generate_vibe
 from elevenlabs import create_session
@@ -63,3 +63,13 @@ async def start_agent_session(req: AgentSessionRequest):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
     return session
+
+
+@app.get("/agent/token")
+async def get_agent_token():
+    from elevenlabs import get_conversation_token
+    try:
+        token = await get_conversation_token()
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+    return {"token": token}
