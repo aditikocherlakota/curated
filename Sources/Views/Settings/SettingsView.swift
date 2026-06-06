@@ -3,6 +3,8 @@ import SwiftUI
 struct SettingsView: View {
     @EnvironmentObject var vibeStore: VibeStore
 
+    @State private var showImportSheet = false
+
     var body: some View {
         NavigationStack {
             ScrollView {
