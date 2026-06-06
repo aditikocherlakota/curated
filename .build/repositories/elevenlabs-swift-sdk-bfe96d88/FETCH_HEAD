@@ -1,0 +1,194 @@
+e5978ec1d4618d2a4afe9374d07f3c28aaa4ad09	not-for-merge	branch 'ISNIT0/fix-perf-issues' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+782364c7340da5fdd7506cf7f1f418e2e742cba8	not-for-merge	branch 'angelo/add-missing-mixer-onclose-removetap' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+b9ee689c07e4d27e7e483a15b567cb3f3b1f67b6	not-for-merge	branch 'angelo/add_dynamic_variables' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+4201ea43781972adf976e427a4b977c9ef67707f	not-for-merge	branch 'angelo/fix-end-session' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+647d4c12ec1b859ae39041b330e840fabbcddcf4	not-for-merge	branch 'angelo/fix-maximum-web-socket' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+b609a7338a90b537ccc447269b212767ce5d6612	not-for-merge	branch 'angelo/rtc' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+be11699afc9d6d257af9f8669407df44c7d6274e	not-for-merge	branch 'angelo/sdk-version-tracking' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+26b5551e8dd22cd08b582afb979866c9490c8ab7	not-for-merge	branch 'angelo/swift-v-tracking' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+c3bbe662f2f75c2c08d2533719a02f6eafae0e7d	not-for-merge	branch 'angelo/text' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+2f1d8268736a640eeaeedcd6ea915b6fa4ef70be	not-for-merge	branch 'chore/make-callbacks-sendable' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+c6c0a0eb78c4f5aaeec4f253bf31cadc8db1d906	not-for-merge	branch 'cursor/investigate-and-fix-mic-mute-issue-cd62' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+1b83ae30d9312e9f9bad528a1f804a6ec6c10089	not-for-merge	branch 'cursor/optimize-sdk-conversation-initiation-timing-f697' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+0ccf7377716e96d17de0a9f5339041198db84d30	not-for-merge	branch 'cursor/update-ios-sdk-for-livekit-breaking-changes-71fc' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+246c6c3d9bf5b69ea44b5bd2842f7cd0152223b5	not-for-merge	branch 'cursor/update-ios-sdk-for-livekit-breaking-changes-895c' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+312d0c1cdef01635b8a4da98d8f6b9584b439ec5	not-for-merge	branch 'feat/add-client-tools' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+736de3cb386e71f22497adeb96081334ffc7d005	not-for-merge	branch 'feat/add-ext-volume-control' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+1f0b9f129a5b310188ac4c3a318a5e28c9a576cf	not-for-merge	branch 'feat/add-format-wflow' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+e3d91eb9987bba877cd5fedf1874cb9737b66db9	not-for-merge	branch 'feat/add-support-for-agent-overrides' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+f9620622abc509c1a8e45e268ccad7b45f0f8a0f	not-for-merge	branch 'feat/attempt-echo-cancellation' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+af98c546ee311c4a244859e5eed3007a96e0957d	not-for-merge	branch 'feat/improvements' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+95debac9d98126337e2af9d1d32d75bbfcd5ad94	not-for-merge	branch 'feat/mac-os-support-branch' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+574e7127e115535d8ef72fb49b941688ed7048c0	not-for-merge	branch 'feat/make-cocoapods-compatible' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+9d7711a701eefdf06c8f715b37d5a609cf24a247	not-for-merge	branch 'feat/update-sdk' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+00c0e3f538e98683528d6c7119dae12b4859f76e	not-for-merge	branch 'fix/echo' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+dd7937d7783f50d2bd4661063974eb6c6099ccaa	not-for-merge	branch 'fix/max-limit' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+deeb6dd5c7035b0af0a9ba917bf0c7f3ac97b256	not-for-merge	branch 'jacksonh/allow-reconnect-config' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+c976c6519e8435dc7d148cd164f03aeffdac0076	not-for-merge	branch 'jacksonh/silence-detection' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+8b16adfbd21b421791bf6ea5e11dab720d6b89e6	not-for-merge	branch 'james/add-user-id-to-session-start' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+7eedfbb247bbdd566cb450a455d8442ff75e68f3	not-for-merge	branch 'louis/bump-livekit' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+d999e5e2c3468351ab7089995aa71f82b3f0d7ea	not-for-merge	branch 'louis/fix-speaking-state' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+233cbd519bb80def3c42f5311805c72ed367ed0f	not-for-merge	branch 'louis/fix-tests' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+f53344e115db62a71ce1774223f3d621037702be	not-for-merge	branch 'louisjoecodes-patch-1' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+2100969572d8cec5e0467f09a868b0d5c626f749	not-for-merge	branch 'main' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+fa2bc9229219cb1383a1ffad2c0725d96f27992b	not-for-merge	branch 'nicolas/check-muted-speaking' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+e1db1f744e7e813699888f644f718092fcb36c12	not-for-merge	branch 'older-iphone-support' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+f4c4c3c13103d71203d0459f147c2e7eeacbfd68	not-for-merge	branch 'refactor' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+776f5d7f3c52fb01a34cbac59757da0ec19b1833	not-for-merge	branch 'revert-56-angelo/sdk-version-tracking' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+a605045bf22156a1652f430fa17a650a0adfe07a	not-for-merge	branch 'revert-58-revert-56-angelo/sdk-version-tracking' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+dc00942cffdd976be5f72c3f096cc905054983a2	not-for-merge	branch 'singlepeerconnection' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+af98c546ee311c4a244859e5eed3007a96e0957d	not-for-merge	'refs/pull/1/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+b9ee689c07e4d27e7e483a15b567cb3f3b1f67b6	not-for-merge	'refs/pull/10/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+ea86ed532f7cfa86a6bdf8f7ba37a534eeb95bd5	not-for-merge	'refs/pull/104/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+13b846f76de7f134eacc6205ebb184eafa4ab148	not-for-merge	'refs/pull/107/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+946f4f4c8514236aed85fb9c4e1951d1d48ef22b	not-for-merge	'refs/pull/108/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+1c94bd7433efb6e6f166cb78afa24694f6369e9b	not-for-merge	'refs/pull/109/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+84957f137cf4d471b9c7cb393e4bba70a7fef40e	not-for-merge	'refs/pull/11/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+d7276cca3b3d91767772f0304be94abff4bbf7d2	not-for-merge	'refs/pull/111/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+5f429eafd04beb68bead3e8e58ee5f25b3c6a07a	not-for-merge	'refs/pull/112/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+246c6c3d9bf5b69ea44b5bd2842f7cd0152223b5	not-for-merge	'refs/pull/113/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+0ccf7377716e96d17de0a9f5339041198db84d30	not-for-merge	'refs/pull/114/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+d5e3fc596193eee87641495dd2fbe3576c48868f	not-for-merge	'refs/pull/117/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+bf2109e4a0956353aeb6a2349b389288b8a04f1c	not-for-merge	'refs/pull/118/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+45bf15a82b1cd0c0aaeac84caa560a84b549b7de	not-for-merge	'refs/pull/119/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+5e3e82277f6d501aa1b7b162aac65d8f7fcf6c69	not-for-merge	'refs/pull/120/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+d3f60c349c62e566189dbe8eddeb6083190fa477	not-for-merge	'refs/pull/121/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+7a6abc8c70648a796ac899e1edddbee4dceef6b7	not-for-merge	'refs/pull/122/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+0d3919ec80549b067f43e3a78bd6d8edfdf99fab	not-for-merge	'refs/pull/123/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+233cbd519bb80def3c42f5311805c72ed367ed0f	not-for-merge	'refs/pull/124/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+924c474854c1d4c68df019a971c14c68df555df4	not-for-merge	'refs/pull/129/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+23574932a36fff83dfe93022a3181416f1a5ba60	not-for-merge	'refs/pull/130/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+96457aa570f80346cd3a0627f0970cd53905b2b0	not-for-merge	'refs/pull/133/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+1943c2974c68574d97d6340f8bc45e34f654d48b	not-for-merge	'refs/pull/135/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+67ecf506608e52d425f700872d7413eadf751fb0	not-for-merge	'refs/pull/137/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+deeb6dd5c7035b0af0a9ba917bf0c7f3ac97b256	not-for-merge	'refs/pull/138/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+d4863dbb5e64a87ee3451a6a04f312a5f31717a5	not-for-merge	'refs/pull/139/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+4201ea43781972adf976e427a4b977c9ef67707f	not-for-merge	'refs/pull/14/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+fd7317412bdb4179ca0c28db065bf0c43054f520	not-for-merge	'refs/pull/140/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+c45ad1cfbdfdab07e6d60444523db4108f253cd9	not-for-merge	'refs/pull/141/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+bc846d845fa123b3c5b220cbe026ad294d9f2b87	not-for-merge	'refs/pull/146/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+58e7f19a06379a3229e5c4263defa88f6d9f729d	not-for-merge	'refs/pull/147/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+e41b9467445d7b54ceaa71739104586815de8a7c	not-for-merge	'refs/pull/148/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+ceb6688af7e292d9651cb4cd92cd597331b19bce	not-for-merge	'refs/pull/149/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+e3716e69a36e43bd0c4a65604ff7050040ff9b24	not-for-merge	'refs/pull/150/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+8b667ff59facd8bf35cfc96d506c172b14875c4c	not-for-merge	'refs/pull/151/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+7bd418b300b51848b984b306d670737e490d4c2d	not-for-merge	'refs/pull/152/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+06ab5b7ffbcf01008acd45f576055135ab93d4a1	not-for-merge	'refs/pull/153/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+fa2bc9229219cb1383a1ffad2c0725d96f27992b	not-for-merge	'refs/pull/154/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+c976c6519e8435dc7d148cd164f03aeffdac0076	not-for-merge	'refs/pull/155/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+c3905db9c0d4164784d807f397a05f4b8ab5014a	not-for-merge	'refs/pull/156/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+1581ed147527821846144192cb3a45836166130f	not-for-merge	'refs/pull/158/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+201f9a0a09a226b5665fe0420b6d10f7f743166a	not-for-merge	'refs/pull/159/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+3499e1d911a60e21736a9c087ba9d8f02e95aa5c	not-for-merge	'refs/pull/161/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+b294ce14925a5fa6e4febba2601ab6fe6fa7afe7	not-for-merge	'refs/pull/163/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+c725e6e5652a79e8a5d2adb6f7718016d53b7246	not-for-merge	'refs/pull/164/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+eb9c00e69a9723f617c8be33e4a2449ce09364f4	not-for-merge	'refs/pull/166/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+69caf5936e44adf290e90c546d72000c083e860d	not-for-merge	'refs/pull/167/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+2298eee9dffada29cce9305c9e7e778373a4536b	not-for-merge	'refs/pull/168/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+27233cef8f5b10c4d879b42520ff995516daf89e	not-for-merge	'refs/pull/169/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+872edbb63f691ba565a08f5309bacdc3749c48c5	not-for-merge	'refs/pull/170/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+8d45f3f02d25f475365904bc98b194c89f2d28fc	not-for-merge	'refs/pull/172/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+1e58659fa2834631ad1627a52a5c0d5ebf31eeb7	not-for-merge	'refs/pull/173/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+d33f490a2677542480052e891e14a0d536cf829e	not-for-merge	'refs/pull/174/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+4be35a26216fdf4155114b2336a5e2d05340ab7c	not-for-merge	'refs/pull/175/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+18805a1ae26de5398a1a32e103fddd8f01d176a7	not-for-merge	'refs/pull/178/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+5a98b761eb91041cbf9a1d047596cf960356e217	not-for-merge	'refs/pull/179/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+3411e70dd0f275cd38c321555b4aae7d9fb8b333	not-for-merge	'refs/pull/18/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+9da33b6294e04abef797bd00005d3eab2cb802e9	not-for-merge	'refs/pull/180/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+8d177963354c1b84d9d9045a34651a6731857180	not-for-merge	'refs/pull/182/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+f4c4c3c13103d71203d0459f147c2e7eeacbfd68	not-for-merge	'refs/pull/183/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+ead2bdf36e715f585a9dc675fbe37fae46527fad	not-for-merge	'refs/pull/183/merge' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+dc00942cffdd976be5f72c3f096cc905054983a2	not-for-merge	'refs/pull/185/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+298abf3a2c3337bc97079ae7912dcb942ee7fb6f	not-for-merge	'refs/pull/185/merge' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+2f1d8268736a640eeaeedcd6ea915b6fa4ef70be	not-for-merge	'refs/pull/2/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+d98af709d26fb6a5bc347d0b0b89c874990ad39a	not-for-merge	'refs/pull/22/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+bf3e30650aaff5bcc8e4a2d96c1fff4e2c2594af	not-for-merge	'refs/pull/25/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+647d4c12ec1b859ae39041b330e840fabbcddcf4	not-for-merge	'refs/pull/27/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+736de3cb386e71f22497adeb96081334ffc7d005	not-for-merge	'refs/pull/29/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+1f0b9f129a5b310188ac4c3a318a5e28c9a576cf	not-for-merge	'refs/pull/3/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+f53344e115db62a71ce1774223f3d621037702be	not-for-merge	'refs/pull/30/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+dd7937d7783f50d2bd4661063974eb6c6099ccaa	not-for-merge	'refs/pull/33/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+e1db1f744e7e813699888f644f718092fcb36c12	not-for-merge	'refs/pull/37/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+21d8802b94771a4b08a96739f2bba51cbfb339d6	not-for-merge	'refs/pull/38/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+00c0e3f538e98683528d6c7119dae12b4859f76e	not-for-merge	'refs/pull/4/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+afcc40c315d1499fb66224d01e016c9b7c742b43	not-for-merge	'refs/pull/40/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+504ab823e4cf77bbbc86e89c4baae03d94bb57bc	not-for-merge	'refs/pull/41/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+c3bbe662f2f75c2c08d2533719a02f6eafae0e7d	not-for-merge	'refs/pull/43/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+b609a7338a90b537ccc447269b212767ce5d6612	not-for-merge	'refs/pull/47/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+9d7711a701eefdf06c8f715b37d5a609cf24a247	not-for-merge	'refs/pull/5/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+782364c7340da5fdd7506cf7f1f418e2e742cba8	not-for-merge	'refs/pull/50/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+3fdc2f65772658a754dcd4fcfcbada4d9721cdac	not-for-merge	'refs/pull/51/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+9c2b9ebc29b0bc37fd8eca4403e6b4753f075185	not-for-merge	'refs/pull/52/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+7b2327c58f5f7810e47a23c1c7d6827cc0d0a01b	not-for-merge	'refs/pull/53/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+062881836fb33652430c1c88bd443e27169cacc3	not-for-merge	'refs/pull/54/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+8b16adfbd21b421791bf6ea5e11dab720d6b89e6	not-for-merge	'refs/pull/55/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+be11699afc9d6d257af9f8669407df44c7d6274e	not-for-merge	'refs/pull/56/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+776f5d7f3c52fb01a34cbac59757da0ec19b1833	not-for-merge	'refs/pull/58/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+a605045bf22156a1652f430fa17a650a0adfe07a	not-for-merge	'refs/pull/59/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+e3d91eb9987bba877cd5fedf1874cb9737b66db9	not-for-merge	'refs/pull/6/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+9a1d5c8132abf02ee02ec838751ed32396ec4f78	not-for-merge	'refs/pull/60/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+7816b9263d4eaf704332ecb7868b903e8f9e4433	not-for-merge	'refs/pull/62/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+f58a8061d635b6916abfcd749badc20db84685f2	not-for-merge	'refs/pull/64/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+599bc37db1fd73a15b50141bcd32f857013f073d	not-for-merge	'refs/pull/65/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+edc37768225f52b49706bf57ab7ee4bf67afd7e7	not-for-merge	'refs/pull/67/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+e5978ec1d4618d2a4afe9374d07f3c28aaa4ad09	not-for-merge	'refs/pull/68/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+fd0f2640c804c6bca17a81b7e55601c79546fed8	not-for-merge	'refs/pull/69/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+312d0c1cdef01635b8a4da98d8f6b9584b439ec5	not-for-merge	'refs/pull/7/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+1b83ae30d9312e9f9bad528a1f804a6ec6c10089	not-for-merge	'refs/pull/75/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+c6c0a0eb78c4f5aaeec4f253bf31cadc8db1d906	not-for-merge	'refs/pull/76/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+0223e8be28c9e98c12920f60f3e580eb9e3e92d0	not-for-merge	'refs/pull/76/merge' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+df4e622b5deb13382d7f0347f214895f13867518	not-for-merge	'refs/pull/79/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+31328c1e69bf159c6ad4a1d5774c443eb2da87ae	not-for-merge	'refs/pull/80/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+e8397b9a9000cbfb21118580d58d12d662b3a982	not-for-merge	'refs/pull/82/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+db55312648c3511ccc87030f52c0f6ff6ac79098	not-for-merge	'refs/pull/89/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+229a500cb9cfbe7f42f3c6011b375555c587507d	not-for-merge	'refs/pull/98/head' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+170259e7c1ee3a7de5856ee244b4cd34160c312f	not-for-merge	tag 'backup/pre-cleanup' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+170259e7c1ee3a7de5856ee244b4cd34160c312f	not-for-merge	tag 'backup/pre-cleanup-20250724' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+1375554c75d4e1cf6d822256abd781a23da56092	not-for-merge	tag 'v1.0.0' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+322625a58f08f0d835eeda40ed7c4d5f1eefb9a6	not-for-merge	tag 'v1.0.1' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+cb7b371863233104f2a1bdfb922b63ad635db68e	not-for-merge	tag 'v1.0.2' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+ebe9b1738b68c816d71094ddcd4d9f05dea0437e	not-for-merge	tag 'v1.0.3' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+dd2a0b226f541ff1be69aefb1230709a8f122858	not-for-merge	tag 'v1.0.4' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+66716f808c138cdd2e67280342af94b26ac7e6b8	not-for-merge	tag 'v1.0.5' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+66716f808c138cdd2e67280342af94b26ac7e6b8	not-for-merge	tag 'v1.0.6' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+4b80ebd938385d956c052e58e7daaed4b822c20a	not-for-merge	tag 'v1.0.7' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+c74ac7d74eb4a542aa9687a665fc47bfa481d543	not-for-merge	tag 'v1.0.8' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+5cc46b61392641b96572629a9e6281745c2a92e2	not-for-merge	tag 'v1.0.9' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+84471ed2981bc1b4ad8c503ed56fd6a0a2b0979e	not-for-merge	tag 'v1.1.0' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+7f5a4b515bd11b9ebd4e866d5753337874969ae6	not-for-merge	tag 'v1.1.1' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+167bef9560bf8fe2b857f7f5abda1e0cbf9e41c3	not-for-merge	tag 'v1.1.2' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+65f7bb4983c54d3f1e0b4b9536d1ee1851265b52	not-for-merge	tag 'v1.1.3' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+73588d629f33352dd74408b97e53d649643fb698	not-for-merge	tag 'v1.1.4' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+15fbdad888c6f2ff9a8d6138c3c50985be961f08	not-for-merge	tag 'v1.2.0' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+622bb5fde9f3dccb63ca8d4ad17c2bd24b2bd047	not-for-merge	tag 'v1.2.1' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+078b6b9bb743943a7a1f24e1aa8a52f2b2b23aa9	not-for-merge	tag 'v1.2.2' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+7efa6d77ed85004ad0796aef7d5cdc17dcde84ca	not-for-merge	tag 'v1.2.3' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+f87da2018ec8ac03312ffbcdd668c629bac30b46	not-for-merge	tag 'v2.0.0' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+b5219d18a872082c097c49b156e14f0513ebb865	not-for-merge	tag 'v2.0.1' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+a977768a8a41b73dcc397a01f4010bb15570173f	not-for-merge	tag 'v2.0.10' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+bbbe2b7f6d546180e119d8634d1f577fff7645b4	not-for-merge	tag 'v2.0.11' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+bee7b3ac32c220756ec1d590e87908a90cb6ccea	not-for-merge	tag 'v2.0.12' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+131d88f50f69c1620989d467204049a5287122e5	not-for-merge	tag 'v2.0.13' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+38de4bbec931487081814290dc42aac943563c36	not-for-merge	tag 'v2.0.14' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+815d0ae6495c2465c067a81d8b45cc2eb7163168	not-for-merge	tag 'v2.0.15' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+b1538d522769cce9a23589ae86a53b33423f1e01	not-for-merge	tag 'v2.0.16' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+72c6dc1a893d7cd1c310be78e58a84125df761f5	not-for-merge	tag 'v2.0.2' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+43c6b94c653dd5b3664fd73091e12f85c3e6cc2e	not-for-merge	tag 'v2.0.3' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+c5a360a374ed0a3f8191eb9aaeb18b56454b0a22	not-for-merge	tag 'v2.0.4' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+063763c17819c7fcde8067e1630409b7283ccc9f	not-for-merge	tag 'v2.0.5' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+a2f77636b92a69fb3e2e22cd6943d37e3033ecea	not-for-merge	tag 'v2.0.6' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+1c6d061ffba8e778df35cd9fb63235c74bd306e8	not-for-merge	tag 'v2.0.7' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+cb7b7c84d84bd593d4ef62e4b847801d2b53b0ea	not-for-merge	tag 'v2.0.8' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+f77492b76e727481f21660a20e006b06ac0a9684	not-for-merge	tag 'v2.0.9' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+a2cf46ac187c322ce6361cc0e7116d12096c1e48	not-for-merge	tag 'v2.1.0-alpha.1' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+7e87e09aed65d4f69394a0d4346d158a30fb0c18	not-for-merge	tag 'v2.1.0-alpha.2' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+dd1816770385684a4db785346eb1c1778a01feb4	not-for-merge	tag 'v2.1.0-alpha.3' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+870346cd691c753eedfda7122e20bf3efe5749e7	not-for-merge	tag 'v2.1.0-alpha.4' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+4da8726b269d22f78757225fb80a8814b9f64325	not-for-merge	tag 'v3.0.0' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+d14f2e21e9d783eb4b7447b5240705bab79b348c	not-for-merge	tag 'v3.1.0' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+9ae53f4ca0fe0bd1f18426ca06983a896568dd78	not-for-merge	tag 'v3.1.1' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+3096191f8bef185afac6937bf7fc83ae1337dfc2	not-for-merge	tag 'v3.1.2' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+54d62c94b9f64ed9a6d2b7ee2a32ddf211aad1f9	not-for-merge	tag 'v3.1.3' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+a5ffac8efc35d2da3465f2b66ecde9f669c776d8	not-for-merge	tag 'v3.1.4' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+0db69c21dc526319a891ddfa4ad768e5dba6bb35	not-for-merge	tag 'v3.1.5' of https://github.com/elevenlabs/elevenlabs-swift-sdk
+2100969572d8cec5e0467f09a868b0d5c626f749	not-for-merge	tag 'v3.2.0' of https://github.com/elevenlabs/elevenlabs-swift-sdk
