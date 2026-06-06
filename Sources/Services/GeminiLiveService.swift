@@ -25,7 +25,7 @@ final class GeminiLiveService: NSObject, ObservableObject {
     private var playbackEngine: AVAudioEngine?
     private let playbackSampleRate: Double = 24000
 
-    private let modelName = "gemini-2.5-flash-native-audio-preview-12-2025"
+    private let modelName = "gemini-3.1-flash-live-preview"
 
     private var vibeContext: String = ""
 

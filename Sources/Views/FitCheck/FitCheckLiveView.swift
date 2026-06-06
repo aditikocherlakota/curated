@@ -58,7 +58,6 @@ struct FitCheckLiveView: View {
         }
         .onDisappear {
             Task {
-                camera.stopStreaming()
                 camera.stopSession()
                 await gemini.disconnect()
             }
@@ -138,7 +137,6 @@ struct FitCheckLiveView: View {
             Button {
                 Task {
                     if gemini.isConnected {
-                        camera.stopStreaming()
                         await gemini.disconnect()
                     } else {
                         await startSession()
@@ -188,16 +186,10 @@ struct FitCheckLiveView: View {
 
     private func startSession() async {
         // Pass vibe context to Gemini
-        let vibeContext = vibeStore.profile?.styleSummary ?? ""
+        let vibeContext = vibeStore.rawMarkdown
         gemini.configure(vibeContext: vibeContext)
 
         // Connect to Gemini Live
         await gemini.connect()
-
-        // Start streaming camera frames
-        camera.onFrame = { [weak gemini] jpegData in
-            gemini?.sendVideoFrame(jpegData)
-        }
-        camera.startStreaming()
     }
 }
