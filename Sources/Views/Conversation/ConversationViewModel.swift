@@ -155,14 +155,10 @@ final class ConversationViewModel: ObservableObject {
             result = ["error": "Unknown tool: \(toolCall.toolName)"]
         }
 
-        if toolCall.expectsResponse {
-            try? await conversation?.sendToolResult(
-                for: toolCall.toolCallId,
-                result: result
-            )
-        } else {
-            conversation?.markToolCallCompleted(toolCall.toolCallId)
-        }
+        try? await conversation?.sendToolResult(
+            for: toolCall.toolCallId,
+            result: result
+        )
     }
 }
 
