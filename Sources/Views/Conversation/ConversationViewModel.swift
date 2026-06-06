@@ -45,7 +45,7 @@ final class ConversationViewModel: ObservableObject {
             let voiceId = Secrets.elevenLabsVoiceId.isEmpty ? nil : Secrets.elevenLabsVoiceId
             let config = ConversationConfig(
                 agentOverrides: AgentOverrides(prompt: systemPrompt),
-                ttsOverrides: TTSOverrides(voiceId: voiceId),
+                ttsOverrides: voiceId.map { TTSOverrides(voiceId: $0) },
                 conversationOverrides: ConversationOverrides(textOnly: false)
             )
 
