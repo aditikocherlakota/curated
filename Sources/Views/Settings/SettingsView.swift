@@ -2,6 +2,7 @@ import SwiftUI
 
 struct SettingsView: View {
     @EnvironmentObject var vibeStore: VibeStore
+    @State private var showInstagramLogin = false
 
     var body: some View {
         NavigationStack {
@@ -31,14 +32,14 @@ struct SettingsView: View {
                         VibeProfileView(profile: profile)
                             .padding(.top, DesignSystem.Spacing.md)
                     } else {
-                        VStack(spacing: DesignSystem.Spacing.md) {
+                        VStack(spacing: DesignSystem.Spacing.lg) {
                             Text("No vibe profile loaded")
                                 .font(DesignSystem.Typography.bodyMd())
                                 .foregroundColor(DesignSystem.Colors.steel)
-                            Text("Your partner generates vibe.md from your Instagram Data Download. Once loaded, your taste profile appears here.")
-                                .font(DesignSystem.Typography.bodySm())
-                                .foregroundColor(DesignSystem.Colors.stone)
-                                .multilineTextAlignment(.center)
+                            CuratedButton(title: "Connect Instagram", style: .primary) {
+                                showInstagramLogin = true
+                            }
+                            .padding(.horizontal, DesignSystem.Spacing.xxl)
                         }
                         .padding(DesignSystem.Spacing.xxl)
                     }
@@ -76,6 +77,9 @@ struct SettingsView: View {
                     }
                     .padding(.vertical, DesignSystem.Spacing.xxl)
                 }
+            }
+            .sheet(isPresented: $showInstagramLogin) {
+                InstagramLoginView().environmentObject(vibeStore)
             }
             .navigationTitle("Your Vibe")
             .navigationBarTitleDisplayMode(.inline)

@@ -34,7 +34,16 @@ final class ConversationViewModel: ObservableObject {
         connectionStatus = "Connecting..."
 
         do {
+            let vibeMd = vibeStore?.rawMarkdown ?? ""
+            let systemPrompt = vibeMd.isEmpty ? nil : """
+                You are a talking mirror — a calm, direct, tasteful voice that reflects the user's aesthetic back to them.
+                You know their style, interests, and sensibility intimately because their taste profile is below.
+                Speak like a confident, warm friend with excellent taste. Never be sycophantic. Be brief and specific.
+
+                \(vibeMd)
+                """
             let config = ConversationConfig(
+                agentOverrides: AgentOverrides(prompt: systemPrompt),
                 conversationOverrides: ConversationOverrides(textOnly: false)
             )
 

@@ -70,6 +70,34 @@ final class APIService {
         )
     }
 
+    // MARK: - Instagram / Vibe generation
+
+    func generateVibe(username: String, password: String, twoFactorCode: String? = nil) async throws -> String {
+        let url = URL(string: "\(baseURL)/vibe/generate")!
+        var request = URLRequest(url: url)
+        request.httpMethod = "POST"
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+
+        var payload: [String: Any] = ["username": username, "password": password]
+        if let code = twoFactorCode, !code.isEmpty { payload["two_factor_code"] = code }
+        request.httpBody = try JSONSerialization.data(withJSONObject: payload)
+        request.timeoutInterval = 120
+
+        let (data, response) = try await URLSession.shared.data(for: request)
+        if let http = response as? HTTPURLResponse, http.statusCode == 400 {
+            let detail = (try? JSONSerialization.jsonObject(with: data) as? [String: Any])?["detail"] as? String ?? "Bad request"
+            throw APIError.custom(detail)
+        }
+        guard let http = response as? HTTPURLResponse, http.statusCode == 200 else {
+            throw APIError.requestFailed
+        }
+        guard let json = try JSONSerialization.jsonObject(with: data) as? [String: Any],
+              let vibeMd = json["vibe_md"] as? String else {
+            throw APIError.invalidResponse
+        }
+        return vibeMd
+    }
+
     // MARK: - Recommendations
 
     func retrieve(query: String, vibeId: String) async throws -> [[String: Any]] {
@@ -116,11 +144,13 @@ final class APIService {
 enum APIError: Error, LocalizedError {
     case requestFailed
     case invalidResponse
+    case custom(String)
 
     var errorDescription: String? {
         switch self {
         case .requestFailed: return "Backend request failed"
         case .invalidResponse: return "Invalid response from backend"
+        case .custom(let msg): return msg
         }
     }
 }

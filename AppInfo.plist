@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Curated connects to the ElevenLabs voice service for real-time conversations.</string>
+	<key>ELEVENLABS_API_KEY</key>
+	<string>sk_760ecbf68c2d40389afa5e9c69f4951e0daa7327013f4ab6</string>
+	<key>ELEVENLABS_AGENT_ID</key>
+	<string>agent_7601ktf1t9eaef2rsvjrgvh0edm7</string>
+	<key>VALENCE_API_KEY</key>
+	<string>vk_75dbb6b4b01a3a7ef6b8e266eaad3e21be255d05da50720f4e53415be5a09d17</string>
+	<key>BACKEND_BASE_URL</key>
+	<string>$(BACKEND_BASE_URL)</string>
+</dict>
+</plist>

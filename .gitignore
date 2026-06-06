@@ -1,5 +1,33 @@
+# Xcode
 *.xcuserstate
+xcuserdata/
+*.xccheckout
+*.moved-aside
+
+# macOS
 .DS_Store
-Package.swift.bak
+
+# Swift Package Manager
+.build/
 Package.resolved.bak
+Package.swift.bak
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node / Expo
+node_modules/
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Secrets & sessions
+session.json
+.curated-secrets
+.env*.local
+
+# Claude
 .claude/
