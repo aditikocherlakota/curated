@@ -9,11 +9,6 @@ final class CameraService: NSObject, ObservableObject {
     private let output = AVCapturePhotoOutput()
     private var continuation: CheckedContinuation<Data, Error>?
 
-    override init() {
-        super.init()
-        checkAuthorization()
-    }
-
     func checkAuthorization() {
         switch AVCaptureDevice.authorizationStatus(for: .video) {
         case .authorized:

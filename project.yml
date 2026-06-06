@@ -1,0 +1,42 @@
+name: Curated
+options:
+  bundleIdPrefix: com.curated
+  deploymentTarget:
+    iOS: "17.0"
+  xcodeVersion: "16.0"
+  generateEmptyDirectories: false
+
+packages:
+  Yams:
+    url: https://github.com/jpsim/Yams.git
+    from: "5.0.0"
+  ElevenLabsSDK:
+    url: https://github.com/elevenlabs/elevenlabs-swift-sdk.git
+    exactVersion: "3.2.0"
+
+targets:
+  Curated:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources
+        excludes:
+          - Info.plist
+    resources:
+      - path: Resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.curated.app
+        MARKETING_VERSION: "0.1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        DEVELOPMENT_TEAM: ""
+        CODE_SIGN_STYLE: Automatic
+        SWIFT_VERSION: "5.9"
+        TARGETED_DEVICE_FAMILY: "1"
+        INFOPLIST_FILE: Sources/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+    dependencies:
+      - package: Yams
+        product: Yams
+      - package: ElevenLabsSDK
+        product: ElevenLabs

@@ -2,31 +2,43 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>CFBundleName</key>
-    <string>Curated</string>
-    <key>CFBundleDisplayName</key>
-    <string>Curated</string>
-    <key>CFBundleIdentifier</key>
-    <string>com.curated.app</string>
-    <key>CFBundleVersion</key>
-    <string>1</string>
-    <key>CFBundleShortVersionString</key>
-    <string>0.1.0</string>
-    <key>UILaunchScreen</key>
-    <dict/>
-    <key>NSMicrophoneUsageDescription</key>
-    <string>Curated uses your microphone for voice conversations and emotion analysis.</string>
-    <key>NSCameraUsageDescription</key>
-    <string>Curated uses your camera for fit checks — point at an outfit and ask if it works with your vibe.</string>
-    <key>NSLocalNetworkUsageDescription</key>
-    <string>Curated connects to the ElevenLabs voice service for real-time conversations.</string>
-    <key>ELEVENLABS_API_KEY</key>
-    <string>$(ELEVENLABS_API_KEY)</string>
-    <key>ELEVENLABS_AGENT_ID</key>
-    <string>$(ELEVENLABS_AGENT_ID)</string>
-    <key>VALENCE_API_KEY</key>
-    <string>$(VALENCE_API_KEY)</string>
-    <key>BACKEND_BASE_URL</key>
-    <string>$(BACKEND_BASE_URL)</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Curated</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>UILaunchScreen</key>
+	<dict/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Curated uses your camera for fit checks — point at an outfit and ask if it works with your vibe.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Curated uses your microphone for voice conversations and emotion analysis.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Curated connects to the ElevenLabs voice service for real-time conversations.</string>
+	<key>ELEVENLABS_API_KEY</key>
+	<string>sk_760ecbf68c2d40389afa5e9c69f4951e0daa7327013f4ab6</string>
+	<key>ELEVENLABS_AGENT_ID</key>
+	<string>agent_7601ktf1t9eaef2rsvjrgvh0edm7</string>
+	<key>VALENCE_API_KEY</key>
+	<string>vk_75dbb6b4b01a3a7ef6b8e266eaad3e21be255d05da50720f4e53415be5a09d17</string>
+	<key>BACKEND_BASE_URL</key>
+	<string>https://your-backend.example.com</string>
 </dict>
 </plist>

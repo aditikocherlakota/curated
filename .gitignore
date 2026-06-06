@@ -1,0 +1,5 @@
+*.xcuserstate
+.DS_Store
+Package.swift.bak
+Package.resolved.bak
+.claude/

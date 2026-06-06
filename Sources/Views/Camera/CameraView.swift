@@ -80,6 +80,7 @@ struct CameraView: View {
                 }
             }
         }
+        .onAppear { camera.checkAuthorization() }
         .onDisappear { camera.stopSession() }
     }
 
