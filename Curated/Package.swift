@@ -1,0 +1,22 @@
+// swift-tools-version: 5.9
+import PackageDescription
+
+let package = Package(
+    name: "Curated",
+    platforms: [.iOS(.v17)],
+    dependencies: [
+        .package(url: "https://github.com/jpsim/Yams.git", from: "5.0.0"),
+        .package(url: "https://github.com/elevenlabs/elevenlabs-swift-sdk.git", from: "2.0.0"),
+    ],
+    targets: [
+        .executableTarget(
+            name: "Curated",
+            dependencies: [
+                "Yams",
+                .product(name: "ElevenLabs", package: "elevenlabs-swift-sdk"),
+            ],
+            path: "Sources",
+            resources: [.process("../Resources")]
+        ),
+    ]
+)
