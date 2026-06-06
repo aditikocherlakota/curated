@@ -89,36 +89,6 @@ final class APIService {
         return results
     }
 
-    // MARK: - Vibe Generation
-
-    func generateVibe(username: String, password: String, twoFactorCode: String?) async throws -> String {
-        let url = URL(string: "\(baseURL)/vibe/generate")!
-        var request = URLRequest(url: url)
-        request.httpMethod = "POST"
-        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-
-        var payload: [String: Any] = ["username": username, "password": password]
-        if let code = twoFactorCode, !code.isEmpty {
-            payload["two_factor_code"] = code
-        }
-        request.httpBody = try JSONSerialization.data(withJSONObject: payload)
-
-        let (data, response) = try await URLSession.shared.data(for: request)
-        guard let http = response as? HTTPURLResponse, http.statusCode == 200 else {
-            if let json = try? JSONSerialization.jsonObject(with: data) as? [String: Any],
-               let detail = json["detail"] as? String {
-                throw APIError.backendError(detail)
-            }
-            throw APIError.requestFailed
-        }
-
-        guard let json = try JSONSerialization.jsonObject(with: data) as? [String: Any],
-              let vibeMd = json["vibe_md"] as? String else {
-            throw APIError.invalidResponse
-        }
-        return vibeMd
-    }
-
     // MARK: - Itinerary
 
     func itinerary(destination: String, days: Int, vibeId: String) async throws -> [[String: Any]] {
@@ -146,13 +116,11 @@ final class APIService {
 enum APIError: Error, LocalizedError {
     case requestFailed
     case invalidResponse
-    case backendError(String)
 
     var errorDescription: String? {
         switch self {
         case .requestFailed: return "Backend request failed"
         case .invalidResponse: return "Invalid response from backend"
-        case .backendError(let msg): return msg
         }
     }
 }

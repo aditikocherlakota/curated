@@ -77,9 +77,7 @@ struct ConversationView: View {
                 }
             }
             .navigationTitle("Curated")
-            #if os(iOS)
             .navigationBarTitleDisplayMode(.inline)
-            #endif
             .toolbar {
                 ToolbarItem(placement: .principal) {
                     Text("Curated")

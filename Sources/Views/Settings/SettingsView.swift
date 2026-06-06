@@ -3,8 +3,6 @@ import SwiftUI
 struct SettingsView: View {
     @EnvironmentObject var vibeStore: VibeStore
 
-    @State private var showImportSheet = false
-
     var body: some View {
         NavigationStack {
             ScrollView {
@@ -80,9 +78,7 @@ struct SettingsView: View {
                 }
             }
             .navigationTitle("Your Vibe")
-            #if os(iOS)
             .navigationBarTitleDisplayMode(.inline)
-            #endif
             .toolbar {
                 ToolbarItem(placement: .principal) {
                     Text("Your Vibe")

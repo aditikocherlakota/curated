@@ -5,15 +5,14 @@ A voice assistant that knows your taste and acts on it. Point your camera at an 
 ## Architecture
 
 ```
-.
+Curated/
 ├── Package.swift                  SPM manifest (Yams + ElevenLabs SDK)
-├── Info.plist                     Privacy descriptions + API key placeholders
 ├── Sources/
 │   ├── App/
 │   │   ├── CuratedApp.swift       @main entry point
 │   │   └── ContentView.swift      Tab navigation (Talk, Fit Check, For You, Vibe)
 │   ├── Design/
-│   │   ├── DesignSystem.swift     Colors, typography, spacing for Curated UI
+│   │   ├── DesignSystem.swift     Colors, typography, spacing from DESIGN.md
 │   │   └── Components.swift       Reusable UI: buttons, cards, badges, sunset stripe
 │   ├── Models/
 │   │   ├── VibeProfile.swift      Typed struct matching the vibe.md YAML profile block
@@ -26,26 +25,27 @@ A voice assistant that knows your taste and acts on it. Point your camera at an 
 │   │   ├── APIService.swift       Backend API client (fit check, retrieve, itinerary)
 │   │   ├── CameraService.swift    AVFoundation single-frame capture
 │   │   └── AudioTapService.swift  Mic tap → PCM buffer → Valence per-turn emotion
-│   └── Views/
-│       ├── Conversation/
-│       │   ├── ConversationView.swift       Voice UI with orb, messages, text fallback
-│       │   └── ConversationViewModel.swift  ElevenLabs SDK + Valence + client tools
-│       ├── Camera/
-│       │   ├── CameraView.swift             Camera preview + capture + fit check
-│       │   └── CameraPreviewView.swift      UIViewRepresentable AVCaptureVideoPreviewLayer
-│       ├── Settings/
-│       │   ├── SettingsView.swift           Profile header, vibe sections, raw MD link
-│       │   ├── VibeProfileView.swift        Nice formatted display of the vibe profile
-│       │   └── VibeMarkdownView.swift       Raw vibe.md rendered in-app
-│       └── Recommendations/
-│           └── RecommendationsView.swift    Category tabs + quick prompts
+│   ├── Views/
+│   │   ├── Conversation/
+│   │   │   ├── ConversationView.swift       Voice UI with orb, messages, text fallback
+│   │   │   └── ConversationViewModel.swift  ElevenLabs SDK + Valence + client tools
+│   │   ├── Camera/
+│   │   │   ├── CameraView.swift             Camera preview + capture + fit check
+│   │   │   └── CameraPreviewView.swift      UIViewRepresentable AVCaptureVideoPreviewLayer
+│   │   ├── Settings/
+│   │   │   ├── SettingsView.swift           Profile header, vibe sections, raw MD link
+│   │   │   ├── VibeProfileView.swift        Nice formatted display of the vibe profile
+│   │   │   └── VibeMarkdownView.swift       Raw vibe.md rendered in-app
+│   │   └── Recommendations/
+│   │       └── RecommendationsView.swift    Category tabs + quick prompts
+│   └── Info.plist                 Privacy descriptions + API key placeholders
 └── Resources/
     └── sample_vibe.md             Bundled sample vibe file
 ```
 
 ## Setup
 
-1. Open this repository root as a Swift Package in Xcode, or create a new iOS App project and add this package.
+1. Open `Curated/` as a Swift Package in Xcode, or create a new iOS App project and add this package.
 2. Add your API keys as Xcode scheme environment variables:
    - `ELEVENLABS_API_KEY` — your ElevenLabs API key
    - `ELEVENLABS_AGENT_ID` — your ElevenLabs Conversational AI agent ID

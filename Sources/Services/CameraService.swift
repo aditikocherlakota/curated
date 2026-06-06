@@ -1,4 +1,3 @@
-#if os(iOS)
 import AVFoundation
 import UIKit
 
@@ -9,11 +8,6 @@ final class CameraService: NSObject, ObservableObject {
     let session = AVCaptureSession()
     private let output = AVCapturePhotoOutput()
     private var continuation: CheckedContinuation<Data, Error>?
-
-    override init() {
-        super.init()
-        checkAuthorization()
-    }
 
     func checkAuthorization() {
         switch AVCaptureDevice.authorizationStatus(for: .video) {
@@ -104,4 +98,3 @@ enum CameraError: Error, LocalizedError {
         }
     }
 }
-#endif

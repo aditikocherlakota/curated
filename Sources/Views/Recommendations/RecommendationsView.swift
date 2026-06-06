@@ -46,9 +46,7 @@ struct RecommendationsView: View {
                 }
             }
             .navigationTitle("For You")
-            #if os(iOS)
             .navigationBarTitleDisplayMode(.inline)
-            #endif
             .toolbar {
                 ToolbarItem(placement: .principal) {
                     Text("For You")

@@ -1,4 +1,3 @@
-#if os(iOS)
 import SwiftUI
 
 struct CameraView: View {
@@ -81,6 +80,7 @@ struct CameraView: View {
                 }
             }
         }
+        .onAppear { camera.checkAuthorization() }
         .onDisappear { camera.stopSession() }
     }
 
@@ -173,4 +173,3 @@ struct FitCheckResultCard: View {
         }
     }
 }
-#endif

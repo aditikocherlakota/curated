@@ -10,12 +10,10 @@ struct ContentView: View {
                     Label("Talk", systemImage: "waveform")
                 }
 
-            #if os(iOS)
             CameraView()
                 .tabItem {
                     Label("Fit Check", systemImage: "camera")
                 }
-            #endif
 
             RecommendationsView()
                 .tabItem {
